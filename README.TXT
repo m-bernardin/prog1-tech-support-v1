@@ -28,3 +28,23 @@ The purpose of this project is to demonstrate and study library classes, such
 as ArrayList, HashMap, HashSet, and Random.
 
 This project is only a first, rudimentary step towards the full solution.
+
+part ii:
+q24. a special type of map that uses hashes instead of keys? a map is similar to an arraylist, in that it contains values in one object, except a map assigns the values to keys, which are strings instead of integers
+q25. same type could be used for both parameters (<String, String>)
+     containsValue(Object value)
+     merge(K key, V value, BiFunction<? super V,? super V,? extends V> remappingFunction)
+     put(K key, V value)
+     putIfAbsent(K key, V value)
+     remove(Object key, Object value)
+     replace(K key, V value)
+     replace(K key, V oldValue, V newValue)
+q26. size()
+q28. it gets replaced like reassigning a variable
+q29. both exist at the same time
+q30. containsKey(Object key)
+     for example in the phonebook:
+     return containsKey("John Doe");
+     if it does it would return true, else false
+q31. returns null
+q32. keySet()
